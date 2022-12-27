@@ -1,45 +1,5 @@
 
-# import linecache
-#
-# h=4
-#
-# def get_contexts(file_path, line_number):
-#     try:
-#         return linecache.getline(file_path, line_number)
-#     finally:
-#         linecache.clearcache()
-#
-# a=get_contexts('All_training_set.txt', h)
-# # b=get_contexts('triInnet_set_.txt', h)
-#
-# print("--a--",a)
 
-# def openreadtxt(file_name):
-#     data = []
-#     file = open(file_name, 'r')  # 打开文件
-#     file_data = file.readlines()  # 读取所有行
-#     for row in file_data:
-#         tmp_list = row.split('_')  # 按‘，’切分每行的数据
-#         # tmp_list[-1] = tmp_list[-1].replace('\n',',') #去掉换行符
-#         data.append(tmp_list)  # 将每行数据插入data中
-#     return data
-#
-#
-# if __name__ == "__main__":
-#     data = openreadtxt('All_training_set.txt')
-#     print(data)
-
-# import numpy as np
-#
-#
-# def loadtxtmethod(filename):
-#     data = np.loadtxt(filename, dtype=np.float32, delimiter='_')
-#     return data
-#
-#
-# if __name__ == "__main__":
-#     data = loadtxtmethod('All_training_set.txt')
-#     print(data)
 
 
 import csv
