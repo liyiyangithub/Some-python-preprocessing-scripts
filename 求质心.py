@@ -22,13 +22,4 @@ def cal_centroid(points):
     return c_x / (6*A), c_y / (6*A)
 
 
-# x0,y0=cal_centroid(points)
-# #[[x1,y1],[x2,y2],[x3,y3],...,[xn,yn]]
-# x,y=[],[]
-# list=[[[x1,y1],[],],[],[],]
-# for i in range(0,len(list)):
-#     if(list[i][0]==list[i][-1]):
-#         x0, y0 = cal_centroid(list[i]):
-#         x.append(x0)
-#         y.append(y0)
 
